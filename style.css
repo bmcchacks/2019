@@ -136,7 +136,7 @@ a{
 /* Cities and country image */
 .bgimg-bmcc {
     background-image: url("bmcc.jpg") ;
-    min-height: 80%;
+    min-height: 70%;
   
 }
 
@@ -171,6 +171,10 @@ a{
     background-color: rgba(224, 220, 221, 0.644)!important;
 }
 
+#registerIcon{
+    height: 250px;
+    padding: 20px;
+}
 
 
 /*table **/
