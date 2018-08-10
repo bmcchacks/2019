@@ -34,8 +34,8 @@
       <a href="#about" class="w3-bar-item w3-button w3-hide-small">
 
         <i class="fa fa-user"></i> ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
-        <i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#schedule" class="w3-bar-item w3-button w3-hide-small">
+        <i class="fa fa-th"></i> SCHEDULE</a>
       <a href="#contact" class="w3-bar-item w3-button w3-hide-small">
         <i class="fa fa-envelope"></i> CONTACT</a>
     </div>
@@ -46,7 +46,7 @@
 
 
         <a href="#about" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">ABOUT</a>
-        <a href="#portfolio" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#schedule" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">SCHEDULE</a>
         <a href="#contact" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">CONTACT</a>
 
         <a href="https://github.com/chini5ko" target="_blank" class="w3-bar-item w3-button w3-hide-large w3-center">
@@ -75,8 +75,10 @@
 
 
   <div class="w3-display-container bgimg-bmcc  w3-buttonbar w3-border-red" id="home">
-    <div class="w3-display-middle w3-large">
-      <h1 id="blueTextShadow" style="font-weight:bold">BMCC HACK</h1>
+    <div class="w3-display-middle w3-center" >
+      <p id="redTextShadow" style="font-weight:bold">BMCC HACKATHON</p>
+      <p id="blueTextShadow" style="font-weight:bold">Borough of Manhattan Community College</p>
+      <p id="blueTextShadow" style="font-weight:bold">8 AM - 8 PM</p>
 
     </div>
   </div>
@@ -112,8 +114,8 @@
   </div>
 
   <!-- 3 main separate (Center Section) -->
-  <div class="w3-border-top w3-border-white" style="padding-bottom:46px" id="portfolio"></div>
-  <h2 class="w3-center ">Your stops for the Hackathon</h2>
+  <div class="w3-border-top w3-border-white" style="padding-bottom:46px" ></div>
+  <h2 class="w3-center ">Your stops for the BMCC Hackathon</h2>
   <h6 class="w3-center">199 Chambers St</h6>
   <br>
   <div class="w3-row w3-center w3-white">
@@ -137,7 +139,10 @@
       <h6>Check all the workshops</h6>
       <button class=" w3-button w3-red" style="width:33.3%">Schedule</button>
     </div>
+
+    
     <div class="w3-third  ">
+        <br>
       <button class="w3-button w3-circle w3-red">3</button>
       <h5>Attend</h5>
       <h6>Bring your laptop and charger</h6>
@@ -147,7 +152,7 @@
 
 
   <!-- White separate (Worksop Section) -->
-  <div class="w3-border-top w3-border-white" style="padding-bottom:46px" id="portfolio"></div>
+  <div class="w3-border-top w3-border-white" style="padding-bottom:46px" ></div>
   <div class="w3-content w3-container w3-border-top w3-border-bottom w3-border-blue" id="humanDes">
     <div class="w3-center">
       <h1 id="blueTheme">Register </h1>
@@ -176,18 +181,18 @@
         <div class="w3-third  ">
           
           <img id="registerIcon" src="food.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
-          <h6>Food on us </h6>
+          <h6  id="schedule">Food on us </h6>
         </div>
       </div>
   </div>
    <!-- END 3 section : tshirt- sign up - food -->
-  <br>
+  <br >
   </div>
   
   <!-- White separate (Worksop Section) -->
 
-  <div class="w3-content w3-container w3-border-bottom w3-border-blue" id="humanDes">
-    <div class="w3-center">
+  <div class="w3-content w3-container w3-border-bottom w3-border-blue">
+    <div class="w3-center" >
       <h1 id="blueTheme">Schedule </h1>
     </div>
     <div class="w3-center">
@@ -250,8 +255,13 @@
        <!-- 3 section : tshirt- sign up - food -->
        <div class="w3-row w3-center w3-white">
           <div class="w3-third">
-              <h6>Remember before coming: </h6>
-              <h6>Charger and Laptop</h6>
+              <h6>What to bring?</h6>
+              <img id="miniIcon"  src="laptop.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
+              <img id="miniIcon"  src="charge.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
+              <img id="miniIcon"  src="water.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
+
+
+
           </div>
       
           <div class="w3-third w3-leftbar w3-rightbar  w3-border-blue ">
@@ -259,13 +269,15 @@
       <h1>Sponsors</h1>
       <i class="fa fa-github fa-5x"></i>
       <br>
-      <h2>BMCC</h2>
-      <h2>Chinisko</h2>
+      <img id="miniIcon"  src="bo.gif" class=" w3-image w3-opacity w3-hover-opacity-off " >
+
+    
             <br>
           </div>
           <div class="w3-third  ">
               <h6>Location </h6>
-              <h6>BMCC</h6>
+              <img id="miniIcon"  src="bo.gif" class=" w3-image w3-opacity w3-hover-opacity-off " >
+
           </div>
         </div>
     </div>

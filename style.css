@@ -176,6 +176,11 @@ a{
     padding: 20px;
 }
 
+#miniIcon{
+    height: 150px;
+    padding: 25px;
+}
+
 
 /*table **/
 .w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th{
