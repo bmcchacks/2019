@@ -4,17 +4,20 @@
 <!-- Meta Tag -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Hector Liang Columbia website">
-<meta name="keywords" content="Hector,Liang,Columbia,University">
+<meta name="description" content="BMCC Hackathon website">
+<meta name="keywords" content="BMCC,Hackathon,BMCCHackathon,Hack, Borough of Manhattan Community College">
 <meta name="author" content="Hector Liang">
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="author" content="Mehmet Sahin">
+<!-- off line 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="w3.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- CSS Files -->
 <link rel="stylesheet" href="style.css">
+<!-- off line w3- css-->
 
 <!-- Js Files -->
 <script src="script.js" defer></script>
@@ -30,11 +33,14 @@
         title="Toggle Navigation Menu">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="#home" class="w3-bar-item w3-button">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small">
-
-        <i class="fa fa-user"></i> ABOUT</a>
-      <a href="#schedule" class="w3-bar-item w3-button w3-hide-small">
+      
+      <a href="#home" class="w3-bar-item w3-button w3-hide-small">
+          <i class="fa fa-home"></i> Home</a>
+      <a href="#mission" class="w3-bar-item w3-button w3-hide-small">
+        <i class="fa fa-flag"></i> Mission</a>
+      <a href="#register" class="w3-bar-item w3-button w3-hide-small">
+          <i class="fa fa-ticket"></i> Register</a>
+          <a href="#schedule" class="w3-bar-item w3-button w3-hide-small">
         <i class="fa fa-th"></i> SCHEDULE</a>
       <a href="#contact" class="w3-bar-item w3-button w3-hide-small">
         <i class="fa fa-envelope"></i> CONTACT</a>
@@ -60,22 +66,10 @@
         </a>
       </div>
     </div>
-
-
   </div>
 
-  <!-- First Parallax Image with Logo Text 
-  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-    <div class="w3-display-middle" style="white-space:nowrap;">
-      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">H . L</span>
-    </div>
-  </div>-->
-  <!-- First Parallax 3 images -->
-
-
-
   <div class="w3-display-container bgimg-bmcc  w3-buttonbar w3-border-red" id="home">
-    <div class="w3-display-middle w3-center" >
+    <div class="w3-display-middle w3-center">
       <p id="redTextShadow" style="font-weight:bold">BMCC HACKATHON</p>
       <p id="blueTextShadow" style="font-weight:bold">Borough of Manhattan Community College</p>
       <p id="blueTextShadow" style="font-weight:bold">8 AM - 8 PM</p>
@@ -91,7 +85,7 @@
   <div id="themeBoxShadow">
 
   </div>
- 
+
 
   <!-- 3 main separate (Center Section) -->
   <h2 class="w3-center ">Your stops for the BMCC Hackathon</h2>
@@ -103,67 +97,74 @@
 
       <div class="w3-center">
         <h5>Sign Up</h5>
+
         <h6>In order to attend</h6>
 
-        <button class=" w3-button w3-red" >Register</button>
+        <button class=" w3-button w3-red">Register</button>
       </div>
-      <br>
-      <br>
-    
+
+      <div class="w3-border-bottom w3-border-red w3-hide-large w3-hide-medium" style="margin: 20px"></div>
+
     </div>
 
-    <div class="w3-third w3-leftbar w3-rightbar w3-border-orange ">
+
+
+    <div class="w3-third w3-leftbar w3-rightbar w3-border-orange">
       <button class="w3-button w3-circle w3-red">2</button>
       <h5>Get Ready</h5>
       <h6>Check all the workshops</h6>
-      <button class=" w3-button w3-red" >Schedule</button>
+      <button class=" w3-button w3-red">Schedule</button>
+      <br>
+      <br>
     </div>
 
-    
-    <div class="w3-third  ">
-       
+    <div class="w3-third ">
+      <div class="w3-border-top w3-border-red w3-hide-large w3-hide-medium"></div>
       <button class="w3-button w3-circle w3-red">3</button>
       <h5>Attend</h5>
       <h6>Sponsors</h6>
-      <button class=" w3-button w3-red" >Location</button>
+      <button class=" w3-button w3-red">Location</button>
+      <br>
+      <br>
     </div>
   </div>
-
+  <!-- END 3 stops  -->
+  <div class="w3-border-top w3-border-orange" style="margin: 20px"></div>
   <!-- Mission  -->
+  <div class="w3-display-container w3-content w3-container" id="humanDes">
+    <h3 class="w3-center">Mission</h3>
+    <h4 class="w3-center">
+      <em>
+        Start
+        <span id="orangeTheme">Coding</span> Here. Go
+        <span id="orangeTheme">Coding</span> Anywhere.
+      </em>
+    </h4>
 
-  <div class="w3-content w3-container w3-border-top w3-border-blue" id="humanDes">
-      <h3 class="w3-center">Mission</h3>
-      <h4 class="w3-center">
-        <em>
-          Start
-          <span id="orangeTheme">Coding</span> Here. Go
-          <span id="orangeTheme">Coding</span> Anywhere.
-        </em>
-      </h4>
-  
-  
+
+    <span style="margin-left:2em"></span>
+    <h5>
       <span style="margin-left:2em"></span>
-      <h5>
-        <span style="margin-left:2em"></span>
-        The purpose of the hackaton is to familiarize students with technology. These students range from technologist student 
-        to business student and even art student. The tech world is evolving at a pace where team work collaboration is essential to the 
-        success of the 21 century business student, art student and . 
-        
-        <br>
-        <br>
-        <em>"Borough of Manhattan Community College is a vibrant, pluralistic learning community committed to the intellectual and personal
-        growth of students. Working closely with organizations across New York City and beyond, we prepare students from around
-        the globe for degree completion, successful transfer, career achievement, lifelong learning, and civic participation" </em>(BMCC). 
-      </h5>
+      The purpose of the hackaton is to familiarize students with technology. These students range from technologist student to
+      business student and even art student. The tech world is evolving at a pace where team work collaboration is essential
+      to the success of the 21 century business student, art student and .
+
       <br>
-  
-    </div>
-     <!-- END Mission  -->
+      <br>
+      <em>"Borough of Manhattan Community College is a vibrant, pluralistic learning community committed to the intellectual
+        and personal growth of students. Working closely with organizations across New York City and beyond, we prepare students
+        from around the globe for degree completion, successful transfer, career achievement, lifelong learning, and civic
+        participation" </em>(BMCC).
+    </h5>
 
 
-  <!-- White separate (Worksop Section) -->
-  <div class="w3-border-top w3-border-white" style="padding-bottom:46px" ></div>
-  <div class="w3-content w3-container w3-border-top w3-border-bottom w3-border-blue" id="humanDes">
+  </div>
+  <!-- END Mission  -->
+
+  <div class="w3-border-top w3-border-orange" style="margin: 20px"></div>
+
+  <!-- Register Big section ( Section) -->
+  <div class="w3-content w3-container" id="humanDes">
     <div class="w3-center">
       <h1 id="blueTheme">Register </h1>
     </div>
@@ -171,38 +172,39 @@
       <button class="w3-button w3-circle w3-red">1</button>
       <button class="w3-button w3-circle w3-pale-red">2</button>
       <button class="w3-button w3-circle w3-pale-red">3</button>
-  
+
       <div class="w3-border-top w3-border-white" style="padding-bottom:46px" id="portfolio"></div>
       <!-- 3 section : tshirt- sign up - food -->
       <div class="w3-row w3-center w3-white">
         <div class="w3-third">
-            <img id="registerIcon"  src="tshirt.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
-            <h6>Free t-shirt </h6>
+          <img id="registerIcon" src="tshirt.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
+          <h6>Free t-shirt </h6>
         </div>
-    
-        <div class="w3-third w3-leftbar w3-rightbar  w3-border-blue ">
-            <h5>Sign up individually</h5>
-            <h5>Maximum team member: 3</h5>
-            <h5>Minimum team member: 2</h5>
-            <h4>You can also form a team at the Hackathon!</h4>
+
+        <div class="w3-third w3-leftbar w3-rightbar w3-border-orange ">
+          <h5>Sign up individually</h5>
+          <h5>Maximum team member: 3</h5>
+          <h5>Minimum team member: 2</h5>
+          <h4>You can also form a team at the Hackathon!</h4>
           <br>
-          <button class=" w3-button w3-red" >Register</button>
+          <button class=" w3-button w3-red">Register</button>
         </div>
         <div class="w3-third  ">
-          
-          <img id="registerIcon" src="food.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
-          <h6  id="schedule">Food on us </h6>
+
+          <img id="registerIcon" src="food.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
+          <h6 id="schedule">Food on us </h6>
         </div>
       </div>
+    </div>
   </div>
-   <!-- END 3 section : tshirt- sign up - food -->
-  <br >
-  </div>
-  
-  <!-- White separate (Worksop Section) -->
+  <!-- END step 1 -->
 
-  <div class="w3-content w3-container w3-border-bottom w3-border-blue">
-    <div class="w3-center" >
+  <div class="w3-border-top w3-border-orange" style="margin: 20px"></div>
+
+  <!-- Schedule -->
+
+  <div class="w3-content w3-container">
+    <div class="w3-center">
       <h1 id="blueTheme">Schedule </h1>
     </div>
     <div class="w3-center">
@@ -212,101 +214,103 @@
       <br>
       <br>
       <br>
-    
-    
 
-        <table class="w3-table-all w3-hoverableS">
-          <thead>
-            <tr class="w3-light-grey">
-              <th>Time</th>
-              <th>Description</th>
-              <th>Location</th>
-            </tr>
-          </thead>
-          <tr>
-            <td>9:00  am</td>
-            <td>Registration</td>
-            <td>Sleep</td>
-          </tr>
-          <tr>
-            <td>10:00 am</td>
-            <td>Hector</td>
-            <td>13 Floor</td>
-          </tr>
-          <tr>
-            <td>11:00 am</td>
-            <td>Mehmet</td>
-            <td>12 Floor</td>
-          </tr>
-          <tr>
-              <td>12:00 pm</td>
-              <td>Github</td>
-              <td>12 Floor</td>
-            </tr>
-            <tr>
-                <td>1:00 pm</td>
-                <td>Github</td>
-                <td>12 Floor</td>
-              </tr>
-              <tr>
-                  <td>2:00 pm</td>
-                  <td>Github</td>
-                  <td>12 Floor</td>
-                </tr>
-                <tr>
-                    <td>3:00 pm</td>
-                    <td>Github</td>
-                    <td>12 Floor</td>
-                  </tr>
-                  
-                <tr>
-                    <td>4:00 pm</td>
-                    <td>Github</td>
-                    <td>12 Floor</td>
-                  </tr>
 
-                  <tr>
-                      <td>5:00 pm</td>
-                      <td>Github</td>
-                      <td>12 Floor</td>
-                    </tr>
-                    <tr>
-                        <td>6:00 pm</td>
-                        <td>Github</td>
-                        <td>12 Floor</td>
-                      </tr>
-                      <tr>
-                          <td>7:00 pm</td>
-                          <td>Github</td>
-                          <td>12 Floor</td>
-                        </tr>
-                        <tr>
-                            <td>8:00 pm</td>
-                            <td>Github</td>
-                            <td>12 Floor</td>
-                          </tr>
-                          <tr>
-                              <td>9:00 pm</td>
-                              <td>Prizes</td>
-                              <td>12 Floor</td>
-                            </tr>
-        </table>
-      </div>
-      <br>
+
+      <table class="w3-table-all w3-hoverable">
+        <thead>
+          <tr class="w3-light-grey ">
+            <th>Time</th>
+            <th>Description</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>9:00 am</td>
+          <td>Registration</td>
+          <td>Sleep</td>
+        </tr>
+        <tr>
+          <td>10:00 am</td>
+          <td>Hector</td>
+          <td>13 Floor</td>
+        </tr>
+        <tr>
+          <td>11:00 am</td>
+          <td>Mehmet</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>12:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>1:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>2:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>3:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+
+        <tr>
+          <td>4:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+
+        <tr>
+          <td>5:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>6:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>7:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>8:00 pm</td>
+          <td>Github</td>
+          <td>12 Floor</td>
+        </tr>
+        <tr>
+          <td>9:00 pm</td>
+          <td>Prizes</td>
+          <td>12 Floor</td>
+        </tr>
+      </table>
     </div>
+    <br>
+  </div>
   </div>
 
 
-  <!-- White separate (Worksop Section) -->
-  <div class="w3-border-top w3-border-white" style="padding-bottom:46px" id="portfolio"></div>
+  <!--End stop 2  -->
+  <div class="w3-border-top w3-border-orange" style="margin: 20px"></div>
 
-  <div class="w3-content w3-container  w3-border-bottom w3-border-blue" id="humanDes">
+  <!--Attend stop 3  -->
+
+  <div class="w3-content w3-container">
     <div class="w3-center">
       <h1 id="blueTheme">Attend </h1>
     </div>
     <br>
 
-    
+
 
 
 
@@ -315,43 +319,43 @@
       <button class="w3-button w3-circle  w3-pale-red">2</button>
       <button class="w3-button w3-circle w3-red">3</button>
       <br>
-      
-       <!-- 3 section : tshirt- sign up - food -->
-       <div class="w3-row w3-center w3-white">
-          <div class="w3-third">
-              <h6>What to bring?</h6>
-              <img id="miniIcon"  src="laptop.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
-              <img id="miniIcon"  src="charge.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
-              <img id="miniIcon"  src="water.png" class=" w3-image w3-opacity w3-hover-opacity-off " >
+
+      <!-- 3 section : tshirt- sign up - food -->
+      <div class="w3-row w3-center w3-white">
+        <div class="w3-third">
+          <h6>What to bring?</h6>
+          <img id="miniIcon" src="laptop.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
+          <img id="miniIcon" src="charge.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
+          <img id="miniIcon" src="water.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
 
 
 
-          </div>
-      
-          <div class="w3-third w3-leftbar w3-rightbar  w3-border-blue ">
-              
-      <h1>Sponsors</h1>
-      <i class="fa fa-github fa-5x"></i>
-      <br>
-      <img id="miniIcon"  src="bo.gif" class=" w3-image w3-opacity w3-hover-opacity-off " >
-
-    
-            <br>
-          </div>
-          <div class="w3-third  ">
-              <h6>Location </h6>
-              <img id="miniIcon"  src="bo.gif" class=" w3-image w3-opacity w3-hover-opacity-off " >
-
-          </div>
         </div>
+
+        <div class="w3-third w3-leftbar w3-rightbar  w3-border-orange ">
+
+          <h1>Sponsors</h1>
+          <i class="fa fa-github fa-5x"></i>
+          <br>
+          <img id="miniIcon" src="bo.gif" class=" w3-image w3-opacity w3-hover-opacity-off ">
+
+
+          <br>
+        </div>
+        <div class="w3-third  ">
+          <h6>Location </h6>
+          <img id="miniIcon" src="bo.gif" class=" w3-image w3-opacity w3-hover-opacity-off ">
+
+        </div>
+      </div>
     </div>
-     <!-- END 3 section : tshirt- sign up - food -->
+    <!-- END 3 section : tshirt- sign up - food -->
 
-     <br>
+    <br>
 
 
-    </div>
-   
+  </div>
+
   </div>
   <br>
 
@@ -363,6 +367,12 @@
       <i class="fa fa-arrow-up w3-margin-left" id="blueTheme"></i>
     </a>
     <div class="w3-large w3-section">
+      <div>
+          <div class="w3-border-top w3-border-orange" style="margin: 50px"></div>
+
+          <i class="fa fa-envelope"></i> 
+               <h5>bmccHackathon@gmail.com</h5>
+    </div>
 
     </div>
   </footer>
