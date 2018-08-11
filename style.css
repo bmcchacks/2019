@@ -176,6 +176,21 @@ a{
     padding: 20px;
 }
 
+.vertical-text {
+    transform: rotate(-45deg);
+}
+
+.w3-table-all{
+  border-radius: 20px;
+}
+
+.w3-hoverableS tbody tr:hover,.w3-ul.w3-hoverable li:hover{
+    background-color:rgb(241, 122, 122);
+    color:black;
+}
+
+
+
 #miniIcon{
     height: 150px;
     padding: 20px;
