@@ -8,10 +8,11 @@
 <meta name="keywords" content="BMCC,Hackathon,BMCCHackathon,Hack, Borough of Manhattan Community College">
 <meta name="author" content="Hector Liang">
 <meta name="author" content="Mehmet Sahin">
-<!-- off line 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="w3.css">
+<!-- off line 
+<link rel="stylesheet" href="w3.css">-->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -55,19 +56,12 @@
       <div class="w3-container w3-center w3-animate-right" id="myNavbarSmall">
 
 
-        <a href="#about" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">ABOUT</a>
+        <a href="#about" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">HOME</a>
         <a href="#schedule" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">SCHEDULE</a>
+        <a href="#location" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">LOCATION</a>
+        <a href="#sponsors" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">SPONSORS</a>
         <a href="#contact" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">CONTACT</a>
-
-        <a href="https://github.com/chini5ko" target="_blank" class="w3-bar-item w3-button w3-hide-large w3-center">
-          <i class="fa fa-github"></i>
-        </a>
-        <a href="https://www.instagram.com/chinisko" target="_blank" class="w3-bar-item w3-button w3-hide-large  w3-center ">
-          <i class="fa fa-instagram"></i>
-        </a>
-        <a href="https://linkedin.com/in/hectorliang" target="_blank" class="w3-bar-item w3-button w3-hide-large  w3-center ">
-          <i class="fa fa-linkedin"></i>
-        </a>
+        <a href="#register" class="w3-bar-item w3-button w3-center" onclick="toggleFunction()">Register</a>
       </div>
     </div>
   </div>
@@ -76,7 +70,8 @@
     <div class="w3-display-middle w3-center">
       <p id="redTextShadow" style="font-weight:bold">BMCC HACKATHON</p>
       <p id="blueTextShadow" style="font-weight:bold">Borough of Manhattan Community College</p>
-      <p id="blueTextShadow" style="font-weight:bold">8 AM - 8 PM</p>
+      <p id="blueTextShadow" style="font-weight:bold">October 16th, 2018</p>
+      <p id="blueTextShadow" >8 AM - 8 PM</p>
 
     </div>
   </div>
@@ -92,7 +87,7 @@
 
 
   <!-- 3 main separate (Center Section) -->
-  <h2 class="w3-center ">Your stops for the BMCC Hackathon</h2>
+  <h1 class="w3-center " id="blueTheme">Your stops for the BMCC Hackathon</h1>
   <h6 class="w3-center">199 Chambers St</h6>
   <br>
   <div class="w3-row w3-center w3-white">
@@ -105,10 +100,10 @@
 
         <h6>In order to attend</h6>
         <a href="#register">
-        <button class=" w3-button w3-red">Register</button></a>
+        <button class=" w3-button w3-red w3-round">Register</button></a>
       </div>
 
-      <div class="w3-border-bottom w3-border-red w3-hide-large w3-hide-medium" style="margin: 20px"></div>
+      <div class="w3-border-bottom w3-border-orange w3-hide-large w3-hide-medium" style="margin: 20px"></div>
 
     </div>
 
@@ -120,20 +115,19 @@
       <h5>Get Ready</h5>
       <h6>For the workshop</h6>
       <a href="#schedule">
-      <button class=" w3-button w3-red">Schedule</button></a>
-      <br>
-      <br>
+      <button class=" w3-button w3-red w3-round">Schedule</button></a>
+
     </div>
 
     <div class="w3-third ">
-      <div class="w3-border-top w3-border-red w3-hide-large w3-hide-medium"></div>
+        <div class="w3-border-bottom w3-border-orange w3-hide-large w3-hide-medium" style="margin: 20px"></div>
       <a href="#location">
       <button class="w3-button w3-circle w3-red">3</button></a>
       
       <h5>Learn more</h5>
       <h6>About sponsors</h6>
       <a href="#location">
-      <button class=" w3-button w3-red">Location</button></a>
+      <button class=" w3-button w3-red w3-round">Location</button></a>
       <br>
       <br id="mission">
     </div>
@@ -142,7 +136,7 @@
   <div class="w3-border-top w3-border-orange" style="margin: 25px" ></div>
   <!-- Mission  -->
   <div class="w3-display-container w3-content w3-container" id="humanDes">
-    <h3 class="w3-center">Mission</h3>
+    <h1 class="w3-center" id="blueTheme">Mission</h1>
     <h4 class="w3-center">
       <em>
         Start
@@ -187,8 +181,11 @@
       <!-- 3 section : tshirt- sign up - food -->
       <div class="w3-row w3-center w3-white">
         <div class="w3-third">
+          
           <img id="registerIcon" src="tshirt.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
           <h6>Free t-shirt </h6>
+          <div class="w3-border-bottom w3-border-orange w3-hide-large w3-hide-medium" style="margin: 20px"></div>
+
         </div>
 
         <div class="w3-third w3-leftbar w3-rightbar w3-border-orange ">
@@ -200,6 +197,7 @@
           <button class=" w3-button w3-red">Register</button>
         </div>
         <div class="w3-third  ">
+            <div class="w3-border-bottom w3-border-orange w3-hide-large w3-hide-medium" style="margin: 20px"></div>
 
           <img id="registerIcon" src="food.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
           <h6 id="schedule">Food on us </h6>
@@ -224,8 +222,6 @@
       <br>
       <br>
       <br>
-
-
 
       <table class="w3-table-all w3-hoverable">
         <thead>
@@ -252,54 +248,54 @@
         </tr>
         <tr>
           <td>12:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>1:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>2:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>3:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
 
         <tr>
           <td>4:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
 
         <tr>
           <td>5:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>6:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>7:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>8:00 pm</td>
-          <td>Github</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
         <tr>
           <td>9:00 pm</td>
-          <td>Prizes</td>
+          <td>Workshop</td>
           <td>12 Floor</td>
         </tr>
       </table>
@@ -335,6 +331,7 @@
           <img id="miniIcon" src="charge.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
           <img id="miniIcon" src="water.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
 
+          <div class="w3-border-bottom w3-border-orange w3-hide-large w3-hide-medium" style="margin: 20px"></div>
 
 
         </div>
@@ -350,13 +347,15 @@
           <br>
         </div>
         <div class="w3-third w3-center ">
+            <div class="w3-border-bottom w3-border-orange w3-hide-large w3-hide-medium" style="margin: 20px"></div>
+
           <h2>Location </h2>
           <img id="miniIcon" src="map.png" class=" w3-image w3-opacity w3-hover-opacity-off ">
            <br>
 
           <a href="https://www.google.com/maps/dir//Fiterman+Hall,+245+Greenwich+St,+New+York,+NY+10007/@40.7139044,-74.0135,17z/data=!4m16!1m6!3m5!1s0x89c25a194febc653:0xb5ae538e650b5e69!2sFiterman+Hall!8m2!3d40.7139004!4d-74.0113113!4m8!1m0!1m5!1m1!1s0x89c25a194febc653:0xb5ae538e650b5e69!2m2!1d-74.0113113!2d40.7139004!3e3"
           target="_blank"  class="w3-bar-item w3-button">
-           <button class=" w3-button w3-orange w3-round w3-opacity ">Location</button></a>
+           <button class=" w3-button w3-orange w3-round ">Location</button></a>
 
 
         </div>

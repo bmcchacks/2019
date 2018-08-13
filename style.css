@@ -86,12 +86,12 @@ a{
 
 #myNavbar{
     color: white;
-    text-shadow: 0 0 20px #ff9800;;
+    text-shadow: 0 0 20px #ff9800;
 }
 
 #myNavbarSmall{
     color: rgb(0, 0, 0);
-    text-shadow: 0 0 20px rgb(35, 144, 233);
+    text-shadow: 0 0 20px #ff9800;
 }
 
 /* logo image */
@@ -126,6 +126,11 @@ a{
 }
 
 /*BMCC stuff */
+.w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{
+    background-color:#ff9900b7}.w3-centered tr th,.w3-centered tr td{text-align:center}
+
+
+
 
 .w3-orange, .w3-hover-orange:hover {
     color: rgb(255, 255, 255)!important;
@@ -158,11 +163,6 @@ a{
 .w3-table-all{
   border-radius: 20px;
 }
-
-.w3-table-all:hover{
-    background-color:rgb(211, 93, 93);
-}
-
 
 #miniIcon{
     height: 100px;
