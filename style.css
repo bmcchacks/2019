@@ -112,7 +112,7 @@ a{
 
 /* Cities and country image */
 .bgimg-bmcc {
-    background-image: url("bmcc.jpg") ;
+    background-image: url("images/bmcc.jpg") ;
     min-height: 70%;
   
 }
