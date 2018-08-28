@@ -1,5 +1,5 @@
 # bmcchackathon.github.io
 BMCC Hackathon Website
 
-#URL
+# URL
 https://bmcchackathon.github.io/
