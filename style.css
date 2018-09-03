@@ -71,12 +71,18 @@ a{
     color:rgb(35, 21, 224);
 }
 
+
+
 #greenTheme{
     color:rgb(56, 212, 64);
 }
 
 #blueTheme{
     color: rgb(21, 116, 224);
+}
+
+#blueThemeSub{
+    color: rgba(61, 126, 201, 0.788);
 }
 
 #navDemo{
