@@ -18,6 +18,11 @@ a{
     text-shadow: 0 0 20px rgb(12, 142, 248);
 }
 
+#introText{
+    color: rgb(73, 147, 231);
+    font-size: 30px;
+}
+
 
 
 #greenTextShadow{
@@ -91,13 +96,12 @@ a{
 
 
 #myNavbar{
-    color: white;
-    text-shadow: 0 0 20px #ff9800;
+    color: rgb(0, 0, 0);
 }
 
 #myNavbarSmall{
     color: rgb(0, 0, 0);
-    text-shadow: 0 0 20px #ff9800;
+
 }
 
 /* logo image */
@@ -118,7 +122,7 @@ a{
 
 /* Cities and country image */
 .bgimg-bmcc {
-    background-image: url("images/bmcc.jpg") ;
+    background-image: url("images/bridge.jpg") ;
     min-height: 70%;
   
 }
@@ -135,16 +139,13 @@ a{
 .w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{
     background-color:#ff9900b7}.w3-centered tr th,.w3-centered tr td{text-align:center}
 
-
-
-
 .w3-orange, .w3-hover-orange:hover {
     color: rgb(255, 255, 255)!important;
     background-color: #ff9800!important;
 }
 
 .w3-button:hover {
-    color: rgb(255, 0, 0)!important;
+    color: rgb(0, 0, 0)!important;
     background-color: rgba(224, 220, 221, 0.644)!important;
 }
 
