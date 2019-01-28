@@ -9,6 +9,7 @@ h6 {
 }
 body,
 html {
+  background-color: white;
   height: 100%;
   color: #777;
   line-height: 1.8;
