@@ -4,6 +4,4 @@ BMCC Hackathon Website
 # URL
 https://bmcchackathon.github.io/
 
-![](websiteImage.png)
-
-[![Foo](websiteImage.png)](http://google.com.au/)
+[![](websiteImage.png)](https://bmcchackathon.github.io/)
