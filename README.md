@@ -1,6 +1,6 @@
 # BMCC Hackathon Website
 
-# URL
+### URL:
 https://bmcchackathon.github.io/
 
 [![](websiteImage.png)](https://bmcchackathon.github.io/)
