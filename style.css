@@ -1,203 +1,213 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+body,
+html {
+  background-color: white;
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-#showWechatQRCode{
-    color: white;
-    box-shadow: 0 0 10px rgb(30, 206, 103);
-}
-
-#blueTextShadow{
-    color: white;
-    text-shadow: 0 0 20px rgb(12, 142, 248);
+#showWechatQRCode {
+  color: white;
+  box-shadow: 0 0 10px rgb(30, 206, 103);
 }
 
-
-
-#greenTextShadow{
-    color: white;
-    text-shadow: 0 0 20px rgb(30, 206, 103);
+#blueTextShadow {
+  color: white;
+  text-shadow: 0 0 20px rgb(12, 142, 248);
 }
 
-#redTextShadow{
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 20px rgb(206, 30, 45);
-    font-size: 50px;
+#introText {
+  color: rgb(73, 147, 231);
+  font-size: 30px;
 }
 
-#orangeTextShadow{
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 20px  #ff9800;
-    font-size: 50px;
+#greenTextShadow {
+  color: white;
+  text-shadow: 0 0 20px rgb(30, 206, 103);
 }
 
-
-#redBoxShadow{
-    box-shadow: 0 0 20px rgba(250, 21, 21, 0.973);
+#redTextShadow {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 20px rgb(206, 30, 45);
+  font-size: 50px;
 }
 
-#blueBoxShadow{
-    box-shadow: 0 0 20px rgba(16, 91, 253, 0.973);
+#orangeTextShadow {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 20px #ff9800;
+  font-size: 50px;
 }
 
-#orangeBoxShadow{
-    box-shadow:  0 0 20px #ff9800;
-
+#redBoxShadow {
+  box-shadow: 0 0 20px rgba(250, 21, 21, 0.973);
 }
 
-#themeBoxShadow{
-    box-shadow: 0 0 20px rgba(75, 30, 77, 0.973);
+#blueBoxShadow {
+  box-shadow: 0 0 20px rgba(16, 91, 253, 0.973);
 }
 
-#redTheme{
-    color:rgb(255, 49, 49);
-}
-#orangeTheme{
-    color:#ff9800;
+#orangeBoxShadow {
+  box-shadow: 0 0 20px #ff9800;
 }
 
-.redTheme{
-    color:rgb(255, 49, 49);
+#themeBoxShadow {
+  box-shadow: 0 0 20px rgba(75, 30, 77, 0.973);
 }
 
-
-.blueTheme{
-    color:rgb(35, 21, 224);
+#redTheme {
+  color: rgb(255, 49, 49);
+}
+#orangeTheme {
+  color: #ff9800;
 }
 
-
-
-#greenTheme{
-    color:rgb(56, 212, 64);
+.redTheme {
+  color: rgb(255, 49, 49);
 }
 
-#blueTheme{
-    color: rgb(21, 116, 224);
+.blueTheme {
+  color: rgb(35, 21, 224);
 }
 
-#blueThemeSub{
-    color: rgba(61, 126, 201, 0.788);
+#greenTheme {
+  color: rgb(56, 212, 64);
 }
 
-#navDemo{
-    background-color: #f1f1f181!important;
+#blueTheme {
+  color: rgb(21, 116, 224);
 }
 
-
-#myNavbar{
-    color: white;
-    text-shadow: 0 0 20px #ff9800;
+#blueThemeSub {
+  color: rgba(61, 126, 201, 0.788);
 }
 
-#myNavbarSmall{
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 20px #ff9800;
+#navDemo {
+  background-color: #f1f1f181 !important;
+}
+
+#myNavbar {
+  color: rgb(0, 0, 0);
+}
+
+#myNavbarSmall {
+  color: rgb(0, 0, 0);
 }
 
 /* logo image */
-#logoSize{
-    width: 85px;
-    height: 70px;
+#logoSize {
+  width: 85px;
+  height: 70px;
 }
-
 
 /* Create a Parallax Effect */
- .bgimg-bmcc {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.bgimg-bmcc {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 /* Cities and country image */
 .bgimg-bmcc {
-    background-image: url("images/bmcc.jpg") ;
-    min-height: 70%;
-  
+  background-image: url("images/main.jpg");
+  min-height: 70%;
 }
 
-
-
-
-.w3-section{
-    margin-top: 0px!important; 
-    
+.w3-section {
+  margin-top: 0px !important;
 }
 
 /*BMCC stuff */
-.w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{
-    background-color:#ff9900b7}.w3-centered tr th,.w3-centered tr td{text-align:center}
+.w3-hoverable tbody tr:hover,
+.w3-ul.w3-hoverable li:hover {
+  background-color: #ff9900b7;
+}
+.w3-centered tr th,
+.w3-centered tr td {
+  text-align: center;
+}
 
-
-
-
-.w3-orange, .w3-hover-orange:hover {
-    color: rgb(255, 255, 255)!important;
-    background-color: #ff9800!important;
+.w3-orange,
+.w3-hover-orange:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: #ff9800 !important;
 }
 
 .w3-button:hover {
-    color: rgb(255, 0, 0)!important;
-    background-color: rgba(224, 220, 221, 0.644)!important;
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(224, 220, 221, 0.644) !important;
 }
 
-.w3-border-orange{
-    border-color: #ff9800 ;
+.w3-border-orange {
+  border-color: #ff9800;
 }
 
 .w3-rightbar {
-    border-right: 2px solid orange;
+  border-right: 2px solid orange;
 }
 
 .w3-thid.w3-leftbar {
-    border-right: 2px solid orange;
+  border-right: 2px solid orange;
 }
 
-#registerIcon{
-    height: 250px;
-    padding: 20px;
+#registerIcon {
+  height: 250px;
+  padding: 20px;
 }
 
-
-.w3-table-all{
+.w3-table-all {
   border-radius: 20px;
 }
 
-#miniIcon{
-    height: 100px;
-    padding: 15px;
+#miniIcon {
+  height: 100px;
+  padding: 15px;
+}
+
+#mediumIcon {
+  height: 180px;
+  padding: 15px;
 }
 
 /*table **/
-.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th{
-    padding: 8px 8px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: top;
+.w3-table td,
+.w3-table th,
+.w3-table-all td,
+.w3-table-all th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
 }
-
 
 @media all and (max-width: 900px) {
+  #humanDes {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-    #humanDes{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    
-    #redTextShadow{
-        color: rgb(255, 255, 255);
-        text-shadow: 0 0 20px rgb(206, 30, 45);
-        font-size: 30px;
-    }
+  #redTextShadow {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px rgb(206, 30, 45);
+    font-size: 30px;
+  }
 }
 
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
